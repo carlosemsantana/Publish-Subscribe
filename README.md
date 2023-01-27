@@ -13,13 +13,24 @@ O Publish-Subscribe (também conhecido como pub/sub) é uma arquitetura de mensa
 **Descrição da Prova de Conceito**
 
 
-O objetivo desta prova de conceito é criar uma plataforma que possa coletar dados de dispositivos IoT usando ESP32, processar os dados usando API Lambda e armazená-los no DynamoDB. Os dados devem ser então publicados no Kinesis para que possam ser consumidos por Elasticsearch e Kibana para análise.
+Implamentar uma Plataforma que permita, coletar dados de dispositivos IoT, processar os dados usando API e armazená-los no DynamoDB. Os dados devem ser publicados no Kinesis, para que possam ser consumidos via Elasticsearch e Kibana para análise.
 
 
-Arquitetura da Solução
+**Arquitetura da Solução**
+
+
+>Existem várias soluções para este problema, neste documento vamos estudar e avaliar a viabilidade da prova de conceito (POC001).
+
+
+**Objetivo**
+
+Elaborar e implementar uma arquitetura, que permita drones possam se conectar de forma segura e eficaz a uma rede de transmissão de dados. Esta arquitetura é composta de vários componentes, que permitem aos drones se comuniquem com: a Estação Terrestre Gerenciamento, entre si e com outras redes, transmitindo e recebendo dados.
 
 
 ![](img/fig1.png)
+
+
+# 1, 2, 3, 4, 5, 6, 7, 8, 9 e10 
 
 
 Coleta de Dados
@@ -30,6 +41,9 @@ Processamento de Dados
 
 
 
+```python
+
+```
 
 **Referências:**
 
