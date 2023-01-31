@@ -48,16 +48,17 @@ Ao ligar o receptor Skydroid 5.8OTG esteja a uma distância segura do transmisso
 3. Sobrecarga de temperatura. O uso de um receptor 5.8GHz próximo a um transmissor 5G8 pode resultar em um aumento na temperatura do receptor, o que pode levar a danos permanentes.
 
 
+**Coleta de dados**
+
+
 <img src="img/fig3.png"  width="98%"  style="display:inline-block;float:center; margin-right:10px;">
 
 
-Coleta de Dados
-
-
-Processamento de Dados
-
-
-
+<img src="img/2.png"  width="25"  style="display:inline-block;float:center; margin-right:10px;"> <p> O drone na fase inicial do trabalho, inicia o processo de mapeamento da área, gera um fluxo de dados contínuo (stream de vídeo) e transmite para a estação de trabalho em solo. A estação em solo realiza o processamento dos dados e envio de novos comandos para o drone, de acordo com o projeto. Quando existe disponibilidade de acesso à Internet, a estação de trabalho em paralelo, cria um novo fluxo de dados, e transmite para Amazon Kinesis Data Stream, que recebe o fluxos de dados em tempo real, armazena e realiza processamento.
+    
+**[DESAFIO]**
+    
+O fluxo de dados contínuo transmitido pelo drone, requer uma forma de tratamento em tempo real na estação de trabalho. Uma prova de conceito, pode ser implementada com usuo do ROS ou Kafka localmente?
 
 ```python
 
