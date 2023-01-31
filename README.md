@@ -30,7 +30,25 @@ Elaborar e implementar uma arquitetura, que permita drones possam se conectar de
 ![](img/fig1.png)
 
 
-# 1, 2, 3, 4, 5, 6, 7, 8, 9 e10 
+<img src="img/1.png"  width="25"  style="display:inline-block;float:center; margin-right:10px;"> Envio de fluxo de dados (stream de audio e vídeo), através de dispositivos na estrutura (frame) do VANT.
+
+
+<img src="img/fig2.png"  width="98%"  style="display:inline-block;float:center; margin-right:10px;">
+
+
+
+**[ATENÇÃO]**
+
+Ao ligar o receptor Skydroid 5.8OTG esteja a uma distância segura do transmissor 5G8 TS 5828L, os principais riscos são:
+
+1. Interferência de outros sinais de rádio e Wi-Fi próximos. Isso pode resultar em uma recepção de sinal instável e, eventualmente, perda de dados.
+
+2. Radiação eletromagnética. O uso de um receptor 5.8GHz próximo a um transmissor 5G8 pode resultar em uma exposição indesejável a campos eletromagnéticos.
+
+3. Sobrecarga de temperatura. O uso de um receptor 5.8GHz próximo a um transmissor 5G8 pode resultar em um aumento na temperatura do receptor, o que pode levar a danos permanentes.
+
+
+<img src="img/fig3.png"  width="98%"  style="display:inline-block;float:center; margin-right:10px;">
 
 
 Coleta de Dados
