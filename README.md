@@ -27,7 +27,7 @@ Implamentar uma Plataforma que permita, coletar dados de dispositivos IoT, proce
 Elaborar e implementar uma arquitetura, que permita drones possam se conectar de forma segura e eficaz a uma rede de transmissão de dados. Esta arquitetura é composta de vários componentes, que permitem aos drones se comuniquem com: a Estação Terrestre Gerenciamento, entre si e com outras redes, transmitindo e recebendo dados.
 
 
-![](img/fig1.png)
+<img src="img/fig1.png"  width="98%"  style="display:inline-block;float:center; margin-right:10px;">
 
 
 <img src="img/1.png"  width="25"  style="display:inline-block;float:center; margin-right:10px;"> Envio de fluxo de dados (stream de audio e vídeo), através de dispositivos na estrutura (frame) do VANT.
